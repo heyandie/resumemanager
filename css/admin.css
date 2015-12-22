@@ -1,0 +1,235 @@
+body{
+	font-size: 14px;
+}
+input{
+	font-size: 14px;
+}
+.btn{
+	padding: 8px 15px;
+}
+table input{
+	background: #fcdb11;
+	border: 1px solid transparent;
+	transition:0.4s;
+}
+input.disabled{
+	background: transparent;
+	border:1px solid transparent;
+}
+td{
+	position: relative;
+}
+td .number{
+	position: absolute;
+	display: inline-block;
+	left: -5px;
+	top:50%;
+	margin-top: -11px;
+}
+td input{
+	margin-left: 10px;
+}
+.action-buttons button,.action-buttons a{
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom:5px;
+	border: 0px;
+  	color: #fff;
+  	border-radius: 2px;
+  	padding: 3px 5px;
+  	cursor: pointer;
+  	transition:0.5s;
+}
+.action-buttons button:disabled{
+	opacity: 0.5;
+}
+.action-buttons .save{
+	background-color: #27ae60;
+	display: inline-block;
+
+}
+.action-buttons .delete{
+	background-color: #d9534f;
+
+}
+.admin-login{
+	min-height: 100vh;
+	width: 100%;
+	font-size: 14px;
+	padding-bottom: 100px;
+}
+.admin-login input{
+	padding: 8px;
+	font-size: 14px;
+}
+.admin-login label{
+	font-weight: bold;
+}
+.login-form-container h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.admin-container{
+	text-align: center;
+	padding-top: 50px;
+}
+.login-form-container{
+	padding-top: 120px;
+
+}
+
+.login-header{
+	text-align: center;
+	padding: 5px;
+}
+
+button.login{
+	cursor: pointer;
+	padding: 0px;
+	border: 1px dotted #111;
+	border-radius: 2px;
+	padding: 8px 12px;
+	background: #ffcc1d;
+	width: 100%;
+	color:#111;
+}
+
+.admin-links{
+	margin-bottom: 20px;
+}
+.admin-links a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 0px 8px;
+	font-weight: bold;
+	color:#111;
+	font-size: 14px;
+	border-bottom: 2px solid transparent;
+}
+
+.admin-links a.active{
+	border-bottom: 2px solid #ffcc1d;
+}
+
+
+
+.sched-select{
+	font-size: 14px;
+}
+#companies-manager{
+	position: relative;
+}
+.companylist{
+	text-align: left;
+	padding:8px 0px;
+	list-style: arabic;
+	list-style-position: inside;
+}
+
+.company-item{
+	position: relative;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: list-item;
+	padding-left: 3px;
+	color:#f1c40f;
+	font-weight: bold;
+	transition:0.3s;
+}
+
+.company-item span{
+	color: #111;
+	font-weight: normal;
+}
+
+.company-item:last-child{
+	border-bottom: 0px;
+}
+
+
+.company-item a{
+	opacity: 0;
+	transition:0.3s;
+	top:10px;
+}
+.company-item:hover a{
+	opacity: 1;
+}
+
+
+table{
+	border-spacing: 0px;
+	width: 100%;
+}
+td{
+	padding: 10px;
+
+}
+tr{
+	transition:0.4s;
+	vertical-align: middle;	
+
+}
+tr.newly-added{
+	background: #fff59e !important;
+}
+tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+thead td:nth-child(even){
+	background: #ffcc1d;
+}
+
+thead td:nth-child(odd){
+	background: #fcdb11;
+}
+.pull-right{
+	float: right;
+}
+
+.btn{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+div.dates-selection{
+   	border-top:2px solid transparent;
+  	border-bottom:2px solid transparent;
+  	transition:0.5s;
+}
+
+div.invalid{
+  border-top:2px solid #e74c3c !important;
+  border-bottom:2px solid #e74c3c !important;
+  background-color: #ffe2e2 !important;
+}
+
+
+input[name="company_to_add"]{
+	width: 300px;
+
+}
+div.popup-container{
+  position: fixed;
+  min-height: 100px;
+  width: 360px;
+  margin-left: 50%;
+  left: -200px;
+  margin-top: -120px;
+  top:50%;
+  background: #fbfbfb;
+  color: #111;
+  line-height: 18px;
+  font-size: 13px;
+  box-shadow: 1px 1px 1px #eee;
+  text-align: justify;
+  padding: 10px 20px;
+  display: none;
+  z-index: 1200;
+}
+
+
+input[type='checkbox']{
+	font-size: 12px;
+}
